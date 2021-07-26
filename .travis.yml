@@ -4,7 +4,7 @@ dist: focal
 language: ruby
 
 install:
-  - rvm get stable
+  - sudo apt-get install ruby-full
 
 script:
   - ruby -v
