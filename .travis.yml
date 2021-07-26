@@ -3,5 +3,8 @@ dist: xenial
 
 language: ruby
 
+before_script:
+  - rvm install 3.0.2
+
 script:
   - ruby -v
